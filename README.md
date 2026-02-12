@@ -54,18 +54,20 @@ This API is designed for **silent, infrastructure-style usage**.
 
 ---
 
-## Quick Start
+## Quick Start (Do this first)
 
 ### Step 1: Generate a free API key
+
 ```bash
 curl -X POST https://baselayer.world/key
 
----
-
-## Step 2: Generate a free API key
-```bash
 curl -X POST https://baselayer.world/scan \
   -H "X-API-Key: YOUR_API_KEY"
+
+
+---
+
+
 
 How this API benefits you
 
