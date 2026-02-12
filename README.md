@@ -21,5 +21,5 @@ Designed for engineers, auditors, and FinOps teams who want signal—not UI.
 ## Try it
 
 ```bash
-curl -X POST https://yourdomain.com/scan \
+curl -X POST http://localhost:8000/scan \
   -H "X-API-Key: YOUR_API_KEY"
