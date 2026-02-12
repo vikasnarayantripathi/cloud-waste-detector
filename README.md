@@ -1,25 +1,15 @@
 # Cloud Waste Detector
 
-Detect hidden cloud cost waste without cloud credentials.
+API-first cloud waste detection without cloud credentials.
 
-Cloud Waste Detector is an **API-first FinOps utility** that analyzes public cloud usage signals and returns **conservative, machine-readable insights** about unused or over-provisioned resources.
+Cloud Waste Detector analyzes public cloud usage signals and returns
+**conservative, machine-readable insights** about potential cloud cost waste.
 
-No dashboards. No automation. Just reliable data.
-
----
-
-## What it does
-- Identifies unused or underutilized cloud resources
-- Estimates potential monthly cost waste (conservative ranges)
-- Provides confidence-scored findings
-- Requires **no access** to your cloud account
-
-Designed for engineers, auditors, and FinOps teams who want signal—not UI.
+No dashboards. No automation. Just data.
 
 ---
 
-## Try it
+## API Endpoint
 
-```bash
-curl -X POST http://localhost:8000/scan \
-  -H "X-API-Key: YOUR_API_KEY"
+Base URL:
+https://baselayer.world
